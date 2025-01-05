@@ -1,0 +1,34 @@
+/* Responsive Css */
+
+@media screen and (max-width: 1130px) {
+	#menu-btn{
+		display: block;
+	}	
+	
+	#close-btn{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.banner-text{
+		width: auto;
+		padding: 0 25px;
+	}
+	.portfolio-grid .por_img img{
+		width: 100%;
+	}
+	.soclial-link{
+		margin-bottom: 25px;
+	}
+	
+}
+
+@media screen and (max-width: 575px) {
+	.section-padding{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
